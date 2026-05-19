@@ -1,9 +1,0 @@
-This add-on uses the following third-party open-source libraries:
-
-TinyMCE (v8.3.2):
-1. vendor/tinymce.min.js: https://cdn.jsdelivr.net/npm/tinymce@8.3.2/tinymce.min.js
-2. vendor/icons (.*): https://registry.npmjs.org/tinymce/-/tinymce-8.3.2.tgz >> tinymce-8.3.2 >> package >> icons
-3. vendor/skins (.*): https://registry.npmjs.org/tinymce/-/tinymce-8.3.2.tgz >> tinymce-8.3.2 >> package >> skins
-4. vendor/themes (.*): https://registry.npmjs.org/tinymce/-/tinymce-8.3.2.tgz >> tinymce-8.3.2 >> package >> themes
-5. vendor/models (.*): https://registry.npmjs.org/tinymce/-/tinymce-8.3.2.tgz >> tinymce-8.3.2 >> package >> models
-5. vendor/plugins (.*): https://registry.npmjs.org/tinymce/-/tinymce-8.3.2.tgz >> tinymce-8.3.2 >> package >> plugins

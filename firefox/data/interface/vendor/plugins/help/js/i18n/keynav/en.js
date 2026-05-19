@@ -1,9 +1,3 @@
-/*!
- * TinyMCE
- *
- * Copyright (c) 2026 Ephox Corporation DBA Tiny Technologies, Inc.
- * Licensed under the Tiny commercial license. See https://www.tiny.cloud/legal/
- */
 tinymce.Resource.add('tinymce.html-i18n.help-keynav.en',
 '<h1>Begin keyboard navigation</h1>\n' +
   '\n' +

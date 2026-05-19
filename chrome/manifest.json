@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "DocEdit",
   "version": "1.5",
-  "description": "A free & easy-to-use Doc editor extension for your browser.",
+  "description": "Free, Easy-to-use & Professional Doc editor in your browser.",
   "homepage_url": "https://Pro-Bandey.github.io/Projects/?pro=DocEdit",
 
   "offline_enabled": true,
@@ -12,7 +12,8 @@
     "32": "data/icons/32.png",
     "48": "data/icons/48.png",
     "64": "data/icons/64.png",
-    "128": "data/icons/128.png"
+    "128": "data/icons/128.png",
+    "256": "data/icons/icon.png"
   },
 
   "action": {
@@ -21,7 +22,9 @@
       "16": "data/icons/16.png",
       "32": "data/icons/32.png",
       "48": "data/icons/48.png",
-      "64": "data/icons/64.png"
+      "64": "data/icons/64.png",
+      "128": "data/icons/128.png",
+      "256": "data/icons/icon.png"
     }
   },
 
