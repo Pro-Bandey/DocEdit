@@ -1,0 +1,78 @@
+<svg height="120" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .D,
+    .o,
+    .c,
+    .E,
+    .d,
+    .i,
+    .t {
+      font-size: 28px;
+      font-weight: 900;
+      font-family: arial, sans-serif, -apple-system, Segoe UI;
+      fill: #74a44c;
+      dominant-baseline: central;
+      animation-duration: 2s;
+      animation-name: pass;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    .E,
+    .d,
+    .i,
+    .t {
+      fill: #6c6c6c;
+    }
+
+    .DocEdit .D {
+      animation-delay: 0.2s;
+    }
+
+    .DocEdit .o {
+      animation-delay: 0.4s;
+    }
+
+    .DocEdit .c {
+      animation-delay: 0.6s;
+    }
+
+    .DocEdit .E {
+      animation-delay: 0.8s;
+    }
+
+    .DocEdit .d {
+      animation-delay: 1.0s;
+    }
+
+    .DocEdit .i {
+      animation-delay: 1.2s;
+    }
+
+    .DocEdit .t {
+      animation-delay: 1.4s;
+    }
+
+    @keyframes pass {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+    }
+  </style>
+  <g class="DocEdit">
+    <text x="0%" y="50%" class="D">D</text>
+    <text x="17.5%" y="50%" class="o">o</text>
+    <text x="33%" y="50%" class="c">c</text>
+    <text x="48%" y="50%" class="E">E</text>
+    <text x="64%" y="50%" class="d">d</text>
+    <text x="80%" y="50%" class="i">i</text>
+    <text x="87.5%" y="50%" class="t">t</text>
+  </g>
+</svg>

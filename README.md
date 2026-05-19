@@ -10,13 +10,7 @@ DocEdit is built on top of the famous TinyMCE JavaScript library (https://github
 
 You can install this app as a PWA on your mobile device, moreover, it is available as a browser extension as-well-as a web application:
 
-Chrome: https://chrome.google.com/webstore/detail/word-editor/fehbhooigaekgcjecehkiflmflofpdke  
-Opera: https://addons.opera.com/en/extensions/details/word-editor/  
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/word-editor-addon/  
-Edge: https://microsoftedge.microsoft.com/addons/detail/kejomhoioebidhkgmipamekhipddmlmn  
+Firefox: https://addons.mozilla.org/en-US/firefox/addon/docedit/
 
-Webapp & PWA: https://webbrowsertools.com/word-editor/
+Webapp & PWA: https://.com/
 
---------------------------------------------------------------
-
-Support & FAQ: https://mybrowseraddon.com/word-editor.html  
