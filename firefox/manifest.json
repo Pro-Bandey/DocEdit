@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "DocEdit",
   "version": "1.5",
-  "description": "Free, Easy-to-use & Professional Doc editor in your browser.",
+  "name": "Word Editor",
+  "description": "A free & easy-to-use word editor extension for your browser.",
   "homepage_url": "https://Pro-Bandey.github.io/Projects/?pro=DocEdit",
 
   "icons": {
@@ -25,20 +25,21 @@
       "256": "data/icons/icon.png"
     }
   },
-
   "permissions": ["storage", "downloads", "contextMenus"],
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "workers/config.js",
+      "workers/chrome.js",
+      "workers/runtime.js",
+      "workers/common.js"
+    ]
   },
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "docedit@pro-bandey.com",
-      "strict_min_version": "142.0",
-      "data_collection_permissions": {
-        "required": ["none"]
-      }
+      "strict_min_version": "109.0",
+      "id": "docedit@pro-bandey.com"
     }
   }
 }

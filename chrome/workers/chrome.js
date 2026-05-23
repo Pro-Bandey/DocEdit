@@ -5,11 +5,6 @@ app.error = function () {
 };
 
 app.button = {
-  popup: function (popup, callback) {
-    chrome.action.setPopup({ popup: popup }, function (e) {
-      if (callback) callback(e);
-    });
-  },
   on: {
     clicked: function (callback) {
       chrome.action.onClicked.addListener(function (e) {
@@ -249,8 +244,6 @@ app.interface = {
   close: function (context) {
     if (app.interface.id) {
       try {
-        if (context === "popup") {
-        }
         if (context === "tab") app.tab.remove(app.interface.id);
         if (context === "win") app.window.remove(app.interface.id);
       } catch (e) { }
