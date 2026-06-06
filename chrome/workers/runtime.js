@@ -6,7 +6,7 @@ app.homepage = function () {
 };
 
 app.homepageUn = function () {
-  return chrome.runtime.url = "https://github.com/Pro-Bandey/DocEdit//issues/new";
+  return chrome.runtime.url = "https://github.com/Pro-Bandey/DocEdit/issues/new";
 };
 
 if (!navigator.webdriver) {
